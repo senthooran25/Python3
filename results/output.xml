@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.9.5 on darwin)" generated="2024-02-01T10:55:05.784840" rpa="false" schemaversion="5">
+<suite id="s1" name="Mytest" source="/Users/senthooran/Learning/Python3/mytest.robot">
+<test id="s1-t1" name="Open Browser" line="10">
+<kw name="https://www.google.com/ Safari">
+<msg time="2024-02-01T10:55:05.912677" level="FAIL">No keyword with name 'https://www.google.com/ Safari' found.</msg>
+<status status="FAIL" start="2024-02-01T10:55:05.912630" elapsed="0.000091">No keyword with name 'https://www.google.com/ Safari' found.</status>
+</kw>
+<status status="FAIL" start="2024-02-01T10:55:05.908090" elapsed="0.004971">No keyword with name 'https://www.google.com/ Safari' found.</status>
+</test>
+<doc>This is testing scrip</doc>
+<status status="FAIL" start="2024-02-01T10:55:05.786084" elapsed="0.127677"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Mytest">Mytest</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-02-01T10:55:05.786179" level="ERROR">Error in file '/Users/senthooran/Learning/Python3/mytest.robot' on line 7: Setting variable '$[BROWER] chrome' failed: Invalid variable name '$[BROWER] chrome'.</msg>
+</errors>
+</robot>
